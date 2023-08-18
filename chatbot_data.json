@@ -1,0 +1,48 @@
+{
+    "prompts": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello"
+            ],
+            "responses": [
+                "hi :)"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later"
+            ],
+            "responses": [
+                "thanks for your visit"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell"
+            ],
+            "responses": [
+                "we have icecream and pizzas"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Can I pay with Paypal?",
+                "re you cash only?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ]
+        }
+    ]
+}
